@@ -143,6 +143,9 @@
     <a href="/OverdueLoanIndex">Overdue Loan Notification</a>
 </li>
 
+<li class="notification">
+    <a href="/LodgementOfClaimIndex">Lodgement of Claim</a>
+</li>
         </ul>
     </aside>
 
