@@ -19,7 +19,7 @@
                 <div class="alert alert-danger">{{ $errors->first() }}</div>
             @endif
 
-           <form method="POST" action="{{ route('claims.lodgement') }}">
+           <form method="POST" action="">
     @csrf
 
 

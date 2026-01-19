@@ -8,7 +8,7 @@ use App\Http\Controllers\admin\PendingClaimsController;
 use App\Http\Controllers\admin\ApprovedClaimsController;
 use App\Http\Controllers\admin\RejectedClaimsController;
 use App\Http\Controllers\admin\OverdueLoanController;
-use App\Http\Controllers\LodgementOfClaimController;
+use App\Http\Controllers\admin\LodgementOfClaimController;
 
 
 
@@ -70,11 +70,6 @@ Route::controller(OverdueLoanController::class)->middleware(['auth','verified'])
 Route::controller(LodgementOfClaimController::class)->middleware(['auth','verified'])-> group (function () {
    Route::get('/LodgementOfClaimIndex','Index')->name('LodgementOfClaim.index');
 });
-
-
-
-
-
 
 
 
